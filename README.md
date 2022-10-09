@@ -6,13 +6,13 @@ For this project I am going to analyze Airbnb data for Denver, Colorado. The dat
 
 
 
-## Business Tasks
+## Business Task
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
-The cleaning fees when booking an Airbnb have been increasing over time, and cleaning is the only human element required to operate an Airbnb business. I think there is an opportunity to start a servicing company that can improve an Airbnb's operating system. 
+In my experience, cleaning fees when booking an Airbnb have been increasing over time. Because cleaning is the only human element required to operate an Airbnb business, I think there is an opportunity to start a servicing company that can improve an Airbnb owner's operating system. 
 
 Business Task:
-1. How big is the current Airbnb market opportunity in NY?
-2. Can we identify a list of potential customers for an Airbnb cleaning business? 
+
+* Can we identify a list of potential customers for an Airbnb cleaning Business?
 
 ## Process
 Data Sources Used:
