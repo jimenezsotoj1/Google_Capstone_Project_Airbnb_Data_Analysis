@@ -1,0 +1,11 @@
+#--------------------------------------------FINAL ANALYSIS------------------------------------------
+
+#Exploratory Data Analysis
+
+#Query_1: Total number of active Airbnb listings grouped by neighborhood and sorted by count of listings in descending order.
+
+SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
+FROM `lithe-creek-364913.airbnb_data.listings_denver`
+GROUP BY neighbourhood_cleansed
+ORDER BY active_listings DESC;
+
