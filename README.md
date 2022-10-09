@@ -5,7 +5,7 @@ I love to travel, and nearly everywhere I go, I end up using Airbnb to book my s
 
 ## Business Task
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
-In my experience, cleaning fees when booking an Airbnb have been increasing over time. Because cleaning is the only human element required to operate an Airbnb business, I think there is an opportunity to start a servicing company that can improve an Airbnb owner's operating system. 
+In my experience, cleaning fees when booking an Airbnb have been steadily increasing over time with little to no increase in booking cleanliness. Because cleaning is the only human element required to operate an Airbnb business, I think there is an opportunity to start a servicing company that can improve an Airbnb owner's operating system. 
 
 #### Business Task:
 
@@ -20,5 +20,6 @@ I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.
 
 I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. The datasets contained useful information on listings, metrics, review data and more. After reviewing, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I reviewed the files in Excel once again and noticed the *listing_id* column was not formatted correclty. I formatted the columns to number values and proceded to effectively load the data into SQL.
 
+## Exploratory Data Analysis (EDA)
 
 
