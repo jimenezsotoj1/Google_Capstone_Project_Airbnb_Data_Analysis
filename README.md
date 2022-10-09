@@ -18,7 +18,7 @@ I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.
 
 #### Data Cleaning:
 
-I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. The datasets contained useful information on listings, metrics, review data and more. After reviewing, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I reviewed the files in Excel once again and noticed the 'listing_id' column was not formatted correclty. I formatted the columns to number values and proceded to effectively load the data into SQL.
+I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. The datasets contained useful information on listings, metrics, review data and more. After reviewing, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I reviewed the files in Excel once again and noticed the *listing_id* column was not formatted correclty. I formatted the columns to number values and proceded to effectively load the data into SQL.
 
 
 
