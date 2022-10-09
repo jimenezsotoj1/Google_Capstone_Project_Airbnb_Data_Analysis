@@ -2,7 +2,9 @@
 
 ## Introduction
 I love to travel, and nearly everywhere I go, I end up using Airbnb to book my stay. Over time, I've noticed an upwards trendline in cleaning fees for Airbnb bookings. This has me thinking that a good business opportunity exists in creating an Airbnb cleaning business.
-For this project I am going to analyze Airbnb data for one of my favorite cities in the East coast, New York. The data is collected by inside Airbnb. I will be using Excel, SQL(Big Query) and Tableau to solve the business task.
+For this project I am going to analyze Airbnb data for New York city. The data is collected by [inside Airbnb](insideairbnb.com) and I  will be using Excel, SQL(Big Query) and Tableau in order to solve the business tasks.
+
+
 
 ## Business Tasks
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
@@ -15,5 +17,5 @@ Business Task:
 ## Process
 Data Sources Used:
 
-I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.com) most recent up to date information on Airbnb rentals in NY. I then used an unzipping tool to convert them into regular csv files. I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to review, inspect and understand the information. After reviewing, I decided to begin cleaning the data using SQL.
+I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.com) most recent up to date information on Airbnb rentals in NY. I then used an unzipping tool to convert them into regular csv files. I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After reviewing, I decided to begin cleaning the data using SQL.
 
