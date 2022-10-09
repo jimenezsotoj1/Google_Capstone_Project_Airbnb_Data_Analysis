@@ -19,3 +19,5 @@ Data Sources Used:
 
 I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.com) most recent up to date information on Airbnb rentals in NY. I then used an unzipping tool to convert them into regular csv files. I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After reviewing, I decided to begin cleaning the data using SQL.
 
+Data manipulation
+The datasets included information on both listing details an reviews.
