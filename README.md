@@ -8,7 +8,7 @@ For this project I am going to analyze Airbnb data for New York city. The data i
 
 ## Business Tasks
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
-Airbnb cleaning fees have been increasing over time, and cleaning is the only human element required to operate an Airbnb business. I think there is an opportunity to start a servicing company that can improve an Airbnb's operating system. 
+The cleaning fees when booking an Airbnb have been increasing over time, and cleaning is the only human element required to operate an Airbnb business. I think there is an opportunity to start a servicing company that can improve an Airbnb's operating system. 
 
 Business Task:
 1. How big is the current Airbnb market opportunity in NY?
@@ -19,5 +19,6 @@ Data Sources Used:
 
 I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.com) most recent up to date information on Airbnb rentals in NY. I then used an unzipping tool to convert them into regular csv files. I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After reviewing, I decided to begin cleaning the data using SQL.
 
-Data manipulation
-The datasets included information on both listing details an reviews.
+Data manipulation:
+
+The datasets contained informatino relating to the .
