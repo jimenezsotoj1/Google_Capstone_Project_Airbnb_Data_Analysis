@@ -9,7 +9,7 @@ In my experience, cleaning fees when booking an Airbnb have been steadily increa
 
 #### Business Task:
 
-* Can we identify a list of potential customers for an Airbnb cleaning Business?
+* Can we identify a list of potential customers for an Airbnb cleaning Business in Denver, Colorado?
 
 ## Process
 #### Data Sources Used:
