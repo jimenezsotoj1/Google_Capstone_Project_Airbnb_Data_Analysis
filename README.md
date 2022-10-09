@@ -22,13 +22,13 @@ I initially reviewed the downloaded data in excel, since it’s the tool I am mo
 
 ## Exploratory Data Analysis (EDA)
 
-**SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
+[SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
 
 FROM `lithe-creek-364913.airbnb_data.listings_denver`
 
 GROUP BY neighbourhood_cleansed
 
-ORDER BY active_listings DESC;**
+ORDER BY active_listings DESC;]
 
 
 
