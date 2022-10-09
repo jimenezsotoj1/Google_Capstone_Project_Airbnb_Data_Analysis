@@ -1,4 +1,4 @@
-# Airbn Data Analysis Project
+# Airbnb Data Analysis Project
 
 ## Introduction
 I love to travel, and nearly everywhere I go, I end up using Airbnb to book my stay. Over time, I've noticed an upwards trendline in cleaning fees for Airbnb bookings. This has me thinking that a good business opportunity exists in creating an Airbnb cleaning business.
