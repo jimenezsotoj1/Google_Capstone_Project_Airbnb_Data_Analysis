@@ -21,4 +21,4 @@ I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.
 
 Data manipulation:
 
-I initially wanted to clean and manipulate the data using SQL but the file continuosly failed to load and I was unable to figure out the problem. I decided to continue this process using Rstudio (Posit Cloud) because it could handle all of the information faster than Excel, and it would help me improve to work on my Rstudio skills.
+I initially wanted to clean and manipulate the data using SQL but the file continuosly failed to load and I was unable to figure out the root of the problem. I decided to continue this process using Rstudio (Posit Cloud) because it could handle all of the information faster than Excel, and it would help me improve to work on my Rstudio skills.
