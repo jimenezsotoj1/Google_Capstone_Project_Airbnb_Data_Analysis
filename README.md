@@ -21,4 +21,3 @@ I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.
 
 Data manipulation:
 
-
