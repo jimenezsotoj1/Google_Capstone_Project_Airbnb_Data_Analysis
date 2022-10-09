@@ -2,7 +2,7 @@
 
 ## Introduction
 I love to travel, and nearly everywhere I go, I end up using Airbnb to book my stay. Over time, I've noticed an upwards trendline in cleaning fees for Airbnb bookings. This has me thinking that a good business opportunity exists in creating an Airbnb cleaning business.
-For this project I am going to analyze Airbnb data for New York city. The data is collected by [inside Airbnb](insideairbnb.com) and I  will be using Excel, SQL(Big Query) and Tableau in order to solve the business tasks.
+For this project I am going to analyze Airbnb data for New York city. The data I will be using is collected by [inside Airbnb](insideairbnb.com) and I  will be using Excel, SQL(Big Query) and Tableau in order to solve the business tasks.
 
 
 
