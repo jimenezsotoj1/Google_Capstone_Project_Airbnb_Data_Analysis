@@ -15,5 +15,5 @@ Business Task:
 ## Process
 Data Sources Used:
 
-I first downloaded two compressed csv files from [Inside Airbnb](insideairbnb.com) rcent up to date information Airbnb rentals. I then used an unzipping tool to convert them into regular csv files. I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. Considering the large files size, I decided to clean the data using SQL.
+I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.com) most recent up to date information on Airbnb rentals. I then used an unzipping tool to convert them into regular csv files. I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. Considering the large files size, I decided to clean the data using SQL.
 
