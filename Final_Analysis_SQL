@@ -8,7 +8,7 @@ SELECT DISTINCT id
 FROM `lithe-creek-364913.airbnb_data.listings_denver`
 ````
 
-### Neighborhoods with active listings
+### Total Count of Neighborhoods with active listings
 ```sql
 SELECT DISTINCT neighbourhood_cleansed 
 FROM `lithe-creek-364913.airbnb_data.listings_denver`
