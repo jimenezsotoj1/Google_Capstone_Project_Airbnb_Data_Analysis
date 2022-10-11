@@ -21,15 +21,10 @@ I first downloaded two compressed csv files from [Inside Airbnb's](insideairbnb.
 
 I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. The two datasets uploaded (*listings.csv* and *reviews.csv*) contained useful information for this project. The *listings.csv* data contained all currently active listings metrics such as listing id, host name, neighbourhood, room type, number of beds, bedrooms, bahtrooms and more. While the *review.csv* dataset contained th elisting id and reviews left for each one. After reviewing the datasets, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I reviewed the files in Excel once again and noticed the *listing_id* column was not formatted correclty. I formatted the columns to number values and proceded to effectively load the data into SQL.
 
-Once both files where loaded into the SQL dataset, I selected a preview of the files. 
-
 A quick glance at the data shows that there are:
 
-* A total of **5,836** currently active listings in the city of Denver. I decided to run a a query to identify how many if those entries where unique:
-```sql
-SELECT DISTINCT id FROM `lithe-creek-364913.airbnb_data.listings_denver`
-````
-Out of the **5,836**, only **5,801** where considered unique listings.
+* **5,836** currently active listings in the city of Denver. 
+* **5,801** of those listings considered unique listings.
 
 
 ## Exploratory Data Analysis (EDA)
