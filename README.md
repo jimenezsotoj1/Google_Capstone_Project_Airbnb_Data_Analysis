@@ -25,7 +25,7 @@ I then used an unzipping tool to convert them into regular csv files.
 
 #### Data Cleaning:
 
-I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. The two datasets uploaded (*listings.csv* and *reviews.csv*) contained useful information for this project. The *listings.csv* data contained all currently active listings metrics such as listing id, host name, neighbourhood, room type, number of beds, bedrooms, bahtrooms and more. While the *review.csv* dataset contained the listing id and reviews left for each one. After reviewing the datasets, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I reviewed the files in Excel once again and noticed the *listing_id* column was not formatted correclty. I formatted the columns to number values and proceded to effectively load the data into SQL.
+I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. While the *review.csv* dataset contained the listing id and reviews left for each one. After reviewing the datasets, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I reviewed the files in Excel once again and noticed the *listing_id* column was not formatted correclty. I formatted the columns to number values and proceded to effectively load the data into SQL.
 
 A quick glance at the data shows that there are:
 
