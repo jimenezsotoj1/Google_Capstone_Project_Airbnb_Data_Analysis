@@ -39,10 +39,13 @@ ORDER BY max_price DESC;
 
  ###  Removing NULL values from columns to be used in the exploratory data analyis (EDA)
 ```sql
-SELECT Max(price) as max_price, Min(price) as min_price, neighbourhood_cleansed
-FROM `lithe-creek-364913.airbnb_data.listings_denver`
-GROUP BY neighbourhood_cleansed 
-ORDER BY max_price DESC;
+Select * FROM `lithe-creek-364913.airbnb_data.listings_denver`
+WHERE id IS NOT NULL
+AND listing_url IS NOT NULL
+AND  host_name IS NOT NULL
+AND neighbourhood_cleansed IS NOT NULL
+AND room_type IS NOT NULL
+AND bedrooms IS NOT NULL
 ````
 
 
