@@ -48,16 +48,6 @@ AND room_type IS NOT NULL
 AND bedrooms IS NOT NULL
 ````
 
- ###  Removing NULL values from columns to be used in the exploratory data analyis (EDA)
-```sql
-Select * FROM `lithe-creek-364913.airbnb_data.listings_denver`
-WHERE id IS NOT NULL
-AND listing_url IS NOT NULL
-AND  host_name IS NOT NULL
-AND neighbourhood_cleansed IS NOT NULL
-AND room_type IS NOT NULL
-AND bedrooms IS NOT NULL
-````
 
 
 
