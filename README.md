@@ -15,7 +15,7 @@ In my experience, cleaning fees when booking an Airbnb have been steadily increa
 ## Process
 #### Data Sources Used:
 
-I first downloaded two compressed csv files from **[Inside Airbnb's](insideairbnb.com)** latest information on Airbnb rentals in Denver:
+I first downloaded two compressed csv files from Inside Airbnb's latest information on Airbnb rentals in Denver:
 
 * `listings` - Detailed listings data showing attibutes for each of the listings. Some of the attributes used in the analysis are neighbourhood_cleansed, room_type, host_name, longitude, latitude, listing_type among others.
 
