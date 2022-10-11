@@ -1,7 +1,6 @@
 # --------------------------------------------FINAL ANALYSIS------------------------------------------
 
-## Data manipulation
-
+# ------------------------------------------ DATA MANIPULATION----------------------------------------
 
 ### Total unique active Listings
 ```sql
@@ -20,9 +19,37 @@ FROM `lithe-creek-364913.airbnb_data.listings_denver`
 SELECT id, COUNT(comments) as reviews_count
 FROM `lithe-creek-364913.airbnb_data.reviews_denver`
 ````
- ### Max and min listing prices by neighborhood 
+ ###  Min listing prices by neighborhood 
+```sql
+SELECT Max(price) as max_price, Min(price) as min_price, neighbourhood_cleansed
+FROM `lithe-creek-364913.airbnb_data.listings_denver`
+GROUP BY neighbourhood_cleansed 
+ORDER BY min_price ASC;
+````
+
+ ###  Max listing prices by neighborhood 
+```sql
+SELECT Max(price) as max_price, Min(price) as min_price, neighbourhood_cleansed
+FROM `lithe-creek-364913.airbnb_data.listings_denver`
+GROUP BY neighbourhood_cleansed 
+ORDER BY max_price DESC;
+````
+
+# --------------------------------------------DATA CLEANING------------------------------------------
+
+ ###  Removing NULL values from columns to be used in the exploratory data analyis (EDA)
+```sql
+SELECT Max(price) as max_price, Min(price) as min_price, neighbourhood_cleansed
+FROM `lithe-creek-364913.airbnb_data.listings_denver`
+GROUP BY neighbourhood_cleansed 
+ORDER BY max_price DESC;
+````
 
 
 
 
-## Data Cleaning
+
+
+
+
+
