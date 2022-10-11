@@ -32,7 +32,7 @@ A quick glance at the data shows that there are:
 
 * **5,801** unique listings across **78** neighbourhoods in the City of Denver .
 * A total of **314,858** reviews for **4,966** of those unique listings.
-* listing price ranges from $10 - $10,000 a night. the listing with the $10,000 price tag per night is located in Five Points, Denver.
+* listing price ranges from $10 - $10,000 a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
 I then created a clean dataset from the `listings` dataset by removing null values from the columns of interest for my analysis.
