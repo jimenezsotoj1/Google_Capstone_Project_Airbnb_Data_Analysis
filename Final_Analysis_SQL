@@ -1,16 +1,16 @@
 # --------------------------------------------FINAL ANALYSIS------------------------------------------
 
-#Data Cleaning
+## Data Cleaning
 
-#Total unique active Listings
+
+### Total unique active Listings
 ```sql
-SELECT DISTINCT id FROM `lithe-creek-364913.airbnb_data.listings_denver`
+SELECT DISTINCT id 
+FROM `lithe-creek-364913.airbnb_data.listings_denver`
 ````
 
-#Total unique active Listings
+### Neighborhoods with active listings
 ```sql
-SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
+SELECT DISTINCT neighbourhood_cleansed 
 FROM `lithe-creek-364913.airbnb_data.listings_denver`
-GROUP BY neighbourhood_cleansed
-ORDER BY active_listings DESC;
 ````
