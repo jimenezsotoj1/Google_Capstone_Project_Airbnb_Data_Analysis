@@ -1,6 +1,6 @@
 # --------------------------------------------FINAL ANALYSIS------------------------------------------
 
-## Data Cleaning
+## Data manipulation
 
 
 ### Total unique active Listings
@@ -14,3 +14,15 @@ FROM `lithe-creek-364913.airbnb_data.listings_denver`
 SELECT DISTINCT neighbourhood_cleansed 
 FROM `lithe-creek-364913.airbnb_data.listings_denver`
 ````
+
+### Total count of reviews
+```sql
+SELECT id, COUNT(comments) as reviews_count
+FROM `lithe-creek-364913.airbnb_data.reviews_denver`
+````
+ ### Max and min listing prices by neighborhood 
+
+
+
+
+## Data Cleaning
