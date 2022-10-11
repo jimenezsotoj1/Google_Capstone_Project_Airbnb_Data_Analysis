@@ -32,7 +32,7 @@ A quick glance at the data shows that there are:
 
 * **5,801** unique listings across **78** neighbourhoods in the City of Denver .
 * A total of **314,858** reviews for **4,966** of those unique listings.
-* The listing price ranges from 
+* The listing price ranges from $10 - $10,000 a night. the listing woth the $10,000 price tag per night is located in Five Points, Denver.
 
 
 ## Exploratory Data Analysis (EDA)
