@@ -9,6 +9,7 @@ In my experience, cleaning fees when booking an Airbnb have been steadily increa
 
 #### Business Task:
 
+* What are the different types of properties in Denver? Do they vary by neighborhood?
 * Can we identify a list of potential customers for an Airbnb cleaning Business?
 * What are some common themes that can be identified from the text section of the reviews?
 
