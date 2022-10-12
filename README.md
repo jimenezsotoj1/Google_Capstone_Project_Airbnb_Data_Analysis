@@ -5,7 +5,7 @@ I love to travel and nearly everywhere I go I end up using Airbnb to book my sta
 
 ## Business Task
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
-In my experience, cleaning fees when booking an Airbnb have been steadily increasing over time with little to no increase in booking cleanliness. Because cleaning is the only human element required to operate an Airbnb business, I believe a good business opportunity exists in creating a servicing company that can improve an Airbnb owner's operating system. 
+In my experience, cleaning fees when booking an Airbnb have been steadily increasing over time with little to no changes in booking cleanliness. Because cleaning is the only human element required to operate an Airbnb business, I believe a good business opportunity exists in creating a servicing company that can improve an Airbnb owner's operating system. 
 
 #### Business Task:
 
@@ -33,10 +33,10 @@ A quick glance at the data shows that there are:
 
 * **5,801** unique listings across **78** neighbourhoods in the City of Denver .
 * A total of **314,858** reviews for **4,966** of those unique listings.
-* listing price ranges from $10 - $10,000 a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
+* Price ranges from **$10 - $10,000** a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
-I then created a `cleaned_listings` dataset from the `listings` table where I removed all *Null* values from the columns I plan on using for my analysis. Removing null values from the columns of interest resulted in a table with **5,529** unique lisitngs.
+I then created a `cleaned_listings` dataset from the `listings` table where I removed all *Null* values from the `listing_url`, `host_name`. `neighbourhood_cleansed`, `room_type` and `bedrooms` columns. Removing null values from the columns of interest resulted in a table with **5,529** unique lisitngs.
 
 ## Exploratory Data Analysis (EDA)
 
