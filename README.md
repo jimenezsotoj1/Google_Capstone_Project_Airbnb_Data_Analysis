@@ -1,7 +1,7 @@
 # Airbnb Data Analysis Project
 
 ## Introduction
-I love to travel and nearly everywhere I go I end up using Airbnb to book my stay. Some of my favorite stays include cities such as New York, Denver, London, Barcelona and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in investing in an Airbnb cleaning business. For this project I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate ocasions and I still find myself wanting to go back to see the Rockies during wintertime. The data I will be using for this analysis is collected by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, SQL and Tableau in order to solve the following business tasks:
+I love to travel and nearly everywhere I go I end up using Airbnb to book my stay. Some of my favorite stays include cities such as New York, Denver, London, Barcelona and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in investing in an Airbnb cleaning business. For this project I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate ocasions and I still find myself wanting to go back to see the Rocky Mountains during wintertime. The data I will be using for this analysis is collected by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, SQL and Tableau in order to solve the following business tasks:
 
 ## Business Task
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
@@ -26,7 +26,7 @@ I then used an unzipping tool to convert them into regular csv files.
 
 #### Data Cleaning:
 
-I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After reviewing the datasets, I decided to begin the data manipulation process using SQL. As I tried to upload the  data into the SQL dataset, an error message popped up and it wouldn't allow me to upload the dataset. I revisited the files in Excel and noticed the listing_id column was formatted incorrectly. I formatted the columns to number values and proceded to effectively load the data into SQL.
+I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After reviewing the datasets, I decided to begin the data manipulation process using SQL.
 
 A quick glance at the data shows that there are:
 
@@ -36,7 +36,7 @@ A quick glance at the data shows that there are:
 * listing price ranges from $10 - $10,000 a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
-During the quick glance, I noticed smome null values in the `listings` dataset and decided to create cleaned a `cleaned_listings` table to use for my analysis. Removing null values from the columns of interest resulted in a table with **5,529** unique lisitngs.
+I then created a `cleaned_listings` dataset from the `listings` table where I removed all *Null* values from the columns I plan on using for my analysis. Removing null values from the columns of interest resulted in a table with **5,529** unique lisitngs.
 
 ## Exploratory Data Analysis (EDA)
 
