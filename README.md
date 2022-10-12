@@ -5,7 +5,7 @@ I love to travel and nearly everywhere I go I end up using Airbnb to book my sta
 
 ## Business Task
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
-In my experience, cleaning fees when booking an Airbnb have been steadily increasing over time with little to no increase in booking cleanliness. Because cleaning is the only human element required to operate an Airbnb business, I think there is an opportunity to start a servicing company that can improve an Airbnb owner's operating system. 
+In my experience, cleaning fees when booking an Airbnb have been steadily increasing over time with little to no increase in booking cleanliness. Because cleaning is the only human element required to operate an Airbnb business, I believe a good business opportunityexists in creating a servicing company that can improve an Airbnb owner's operating system. 
 
 #### Business Task:
 
