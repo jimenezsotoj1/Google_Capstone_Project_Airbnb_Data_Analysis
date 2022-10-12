@@ -36,7 +36,7 @@ A quick glance at the data shows that there are:
 * Price ranges from **$10 - $10,000** a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
-I then created a `cleaned_listings` dataset from the `listings` table where I removed all *Null* values from the `listing_url`, `host_name`. `neighbourhood_cleansed`, `room_type` and `bedrooms` columns. Removing null values from the columns of interest resulted in a table with **5,529** unique lisitngs.
+I then created a `cleaned_listings` dataset from the `listings` table where I removed all *Null* values from the listing_url, host_name, neighbourhood_cleansed, room_type and bedrooms columns. Removing null values from the columns of interest resulted in a table with **5,529** unique lisitngs.
 
 ## Exploratory Data Analysis (EDA)
 
