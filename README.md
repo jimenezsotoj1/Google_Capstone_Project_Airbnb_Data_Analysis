@@ -72,7 +72,10 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 ![image](https://user-images.githubusercontent.com/42790824/195680136-86bca769-ec51-4cb0-889b-acafcd4f4ab7.png)
 
-**Table 4**
+
+### Prices
+
+For the third business task, I need to identify ommon themesfrom the text section of the reviews. 
 
 
 
