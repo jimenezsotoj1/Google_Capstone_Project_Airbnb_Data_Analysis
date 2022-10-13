@@ -73,13 +73,22 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 ### Common Themes
 
-For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were left on reviews. I then used  word cloud generator online and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency (see table 4). 
+For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were left on reviews. I then used  word cloud generator online and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency. 
 
-By looking at the table 4 image, at first glance, I can see that the some of the largest words that stick out to me are: great, place, stay, location, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb. 
+By looking at the comments visualization (see table 4), at first glance, I can see that the some of the largest words that stick out to me are: great, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb. 
 
+The reviews dataset contained another category where the hosts listed all of the rental amenities in text form so I decided to take a look at what are the most common amenities you can find amongst Denver Airbnb rentals (See table 5). Visualizing the most frequently listed ammenities allows you to identify what is important to your customers. If there are any amenities that require maintenance or replacements, they could present an oportunity for a cleaning business to offer upkeep and replacements for such.  By looking at the amenities visualization (see table 5), at first glance, I can see some of the largest words shown are: alarm, parking, water, coffee, shampoo, hangers, etc. 
+
+As an inverstor, I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing like the ones with tyhe highest frequency. This tier could consist of a team to organize all house items and replenish supplies and amenities according to the quality standards of a luxury stay.
 
 **Table 4**
+
 ![word-cloud](https://user-images.githubusercontent.com/42790824/195720048-17c705ec-f6da-4930-8fb0-51911e546c0d.png)
+
+**Table 5**
+
+![image](https://user-images.githubusercontent.com/42790824/195723366-4a607feb-150b-42ea-9153-b90c23184873.png)
+
 
 
 
