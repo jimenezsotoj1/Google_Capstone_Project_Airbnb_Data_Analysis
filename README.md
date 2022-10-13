@@ -70,7 +70,7 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 **Table 3**
 
-![image](https://user-images.githubusercontent.com/42790824/195717271-5984f3e6-cb8a-4c6c-841a-f28388941492.png)
+![image](https://user-images.githubusercontent.com/42790824/195717448-3c72e584-2695-47a2-a15c-be34498eb212.png)
 
 ### Common Themes
 
