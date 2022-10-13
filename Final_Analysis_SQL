@@ -48,10 +48,23 @@ AND room_type IS NOT NULL
 AND bedrooms IS NOT NULL
 ````
 
+# --------------------------------------------EXPLORATORY DATA------------------------------------------
 
+## Properties
 
-
-
+### Count of property types 
+```sql
+SELECT room_type, COUNT(room_type)
+FROM `lithe-creek-364913.airbnb_data.cleaned_listings`
+GROUP BY room_type
+````
+### Distribution of bedrooms 
+```sql
+SELECT  DISTINCT bedrooms, COUNT(room_type) num_listings
+FROM `lithe-creek-364913.airbnb_data.cleaned_listings`
+WHERE room_type = 'Entire home/apt'
+GROUP BY bedrooms
+````
 
 
 
