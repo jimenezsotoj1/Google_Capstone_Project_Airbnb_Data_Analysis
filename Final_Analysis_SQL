@@ -48,7 +48,7 @@ AND room_type IS NOT NULL
 AND bedrooms IS NOT NULL
 ````
 
-# --------------------------------------------EXPLORATORY DATA------------------------------------------
+# ---------------------------------------EXPLORATORY DATA ANALYSIS----------------------------------
 
 ## Properties
 
