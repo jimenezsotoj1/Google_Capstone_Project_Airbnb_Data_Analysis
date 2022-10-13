@@ -53,7 +53,7 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 **Table 1**
 
-![image](https://user-images.githubusercontent.com/42790824/195717529-d1e0107d-e350-4278-833b-64f9e3d97329.png)
+![image](https://user-images.githubusercontent.com/42790824/195717647-3d1988f7-87e1-4641-9b13-12813076c177.png)
 
 **Table 2**
 
