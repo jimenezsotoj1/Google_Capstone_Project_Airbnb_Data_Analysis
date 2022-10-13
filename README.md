@@ -31,9 +31,9 @@ I initially reviewed the downloaded data in excel, since it’s the tool I am mo
 A quick glance at the data shows that there are:
 
 
-* **5,801** unique listings across **78** neighbourhoods in the City of Denver .
-* A total of **314,858** reviews for **4,966** of those unique listings.
-* Price ranges from **$10 - $10,000** a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
+* 5,801 unique listings across 78 neighbourhoods in the City of Denver .
+* A total of 314,858 reviews for 4,966 of those unique listings.
+* Price ranges from $10 - $10,000 a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
 I then created a `cleaned_listings` table from the `listings` dataset where I removed all *Null* values from the listing_url, host_name, neighbourhood_cleansed, room_type and bedrooms columns. Removing null values from the columns of interest resulted in a table with 5,529 unique lisitngs. We will be using the cleaned listings dataset and the reviews dataset in the exploratory data analysis.
