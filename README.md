@@ -20,7 +20,6 @@ In my experience, cleaning fees when booking an Airbnb have been steadily increa
 I first downloaded two compressed csv files from Inside Airbnb's latest information on Airbnb rentals in Denver:
 
 * `listings` - Detailed listings data showing attibutes for each of the listings. Some of the attributes used in the analysis are neighbourhood_cleansed, room_type, host_name, longitude, latitude, listing_type among others.
-
 * `reviews` - Detailed reviews given by the guests. Key attributes include date, listing_id, reviewer_id and comment.
 
 I then used an unzipping tool to convert them into regular csv files. 
