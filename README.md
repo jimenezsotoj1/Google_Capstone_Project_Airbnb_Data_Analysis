@@ -57,7 +57,10 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 ### Prices
 
-Our second business task relates to prcing 
+Our second business task is to identify how pricing varies by neighbourhood. For this we will run a query in SQL and create a visualization using Excel. 
+
+![image](https://user-images.githubusercontent.com/42790824/195494052-8774e438-a781-4b2e-94ca-4122821b5bef.png)
+
 
 ```sql
 SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
