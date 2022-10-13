@@ -53,11 +53,11 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 **Table 1**
 
-![image](https://user-images.githubusercontent.com/42790824/195676578-f266e901-f4ef-42ec-b219-222bc425503e.png)
+![image](https://user-images.githubusercontent.com/42790824/195717187-4ec98d59-5275-43af-9a74-39a7f7712cd7.png)
 
 **Table 2**
 
-![image](https://user-images.githubusercontent.com/42790824/195716661-d704182c-47aa-419e-8c88-f5cc5de29322.png)
+![image](https://user-images.githubusercontent.com/42790824/195717236-68037864-e03f-46e9-b41b-9e976975e40b.png)
 
 
 ### Prices
@@ -70,8 +70,7 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 **Table 3**
 
-![image](https://user-images.githubusercontent.com/42790824/195716926-ac03d710-95b5-482e-9a8e-40186e83916b.png)
-
+![image](https://user-images.githubusercontent.com/42790824/195717271-5984f3e6-cb8a-4c6c-841a-f28388941492.png)
 
 ### Common Themes
 
