@@ -47,9 +47,9 @@ In this section, we will detail our analysis to the questions of interest mentio
 
 Our first business task is to identify the different property types in the Arbnb rental market. Having a clear understanding of the rental market allows us to identify our potential customers and better market our Airbnb servicing company. As we begin our eploratory data analysis, we can see that there are four different property types for listings in Denver: Entire homes, private room, shared room and Hotel room (See table 1).
 
+Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market belongs to Private rooms, which make up for 17% of the market with 916 active listings. Additional analysis over the Entire Homes/apt segment we can see that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1 to 3 bedrooms (See table 2). This information will be very useful whendeciding how we will be pricing our cleaning services in a way that maintains margins and appeals to our customers.
 
-
-Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market belongs to Private rooms, which make up for 17% of the market with 916 active listings. By diving deeper into the Entire Homes/apt segment we can see that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1-3 bedrooms.
+Looking at the data, it is interesting how quickly we are able to understand the markets' preference. Identifying the right segment and amount of bedrooms per listing allows us to make more informed decicions, putting us one step closer to their goal of successfully identifying the different types of potential customers and developing a strategy to address them.
 
 **Table 1**
 
@@ -57,19 +57,14 @@ Initial observations indicate the Entire Homes/apt is the largest segment, makin
 
 **Table 2**
 
-![image](https://user-images.githubusercontent.com/42790824/195676724-7361f71d-ff93-40c9-bc4f-d4f016e651d1.png)
+![image](https://user-images.githubusercontent.com/42790824/195677790-308a8404-64c5-4912-8f38-f72c03a3327c.png)
 
-Looking at the data, it is interesting how quickly we are able to understand the markets' preference. Identifying the right segment and bedroom distribution allows us to make more informed decicions, putting us one step closer to their goal of successfully identifying the different types of potential customers and developing a strategy to address them.
-
-![image](https://user-images.githubusercontent.com/42790824/195591135-0a6188c1-cd79-4cfa-9d56-6ac41b893aa6.png)
-
-In this visualization we see the top 10 neighbourhoods in the Entire home/apt segment that have between 1 and three bedrooms. 
 
 ### Prices
 
-Our second business task is to identify how pricing varies by neighbourhood. Conducting a pricing analysis can help me, the inverstor, develop different business cases and implement pricing strategies fro my servicing company. For this analysis we will run a query to pull in the average price per night by neighbourhood. 
+Our second business task is to identify how pricing varies by neighbourhood. Conducting a pricing analysis can help me, the inverstor in this scenario, develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by taking a look at the average price per night per neighborhood.
 
-![image](https://user-images.githubusercontent.com/42790824/195579991-e8bb81e3-d14b-4792-a085-0781bae7f403.png)
+![image](https://user-images.githubusercontent.com/42790824/195680136-86bca769-ec51-4cb0-889b-acafcd4f4ab7.png)
 
 
 ```sql
