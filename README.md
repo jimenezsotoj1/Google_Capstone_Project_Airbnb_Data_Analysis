@@ -26,7 +26,7 @@ I then used an unzipping tool to convert them into regular csv files.
 
 #### Data Cleaning:
 
-I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After reviewing the datasets, I decided to begin the data manipulation process using SQL.
+I initially reviewed the downloaded data in excel, since it’s the tool I am most familiar with in order to inspect and understand the information. After inspecting the datasets, I decided to begin the data manipulation process using SQL.
 
 A quick glance at the data shows that there are:
 
@@ -75,7 +75,8 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were left on reviews. I then used  word cloud generator online and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency (see table 4). 
 
-By looking at the table 4 image, at first glance, I can see that the some of the largest words that stick out to me are: great, place, stay, location, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airnbn. 
+By looking at the table 4 image, at first glance, I can see that the some of the largest words that stick out to me are: great, place, stay, location, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb. 
+
 
 **Table 4**
 ![word-cloud](https://user-images.githubusercontent.com/42790824/195720048-17c705ec-f6da-4930-8fb0-51911e546c0d.png)
