@@ -89,7 +89,7 @@ As an inverstor, I see these results as an opportunity to create a high-tiered s
 
 ![image](https://user-images.githubusercontent.com/42790824/195723366-4a607feb-150b-42ea-9153-b90c23184873.png)
 
+### Potential Customers
 
-
-
+Our fourth and last business task, I am tasked to determine if its possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis I decided run a query to create a new table joining both the cleaned listings dataset and the reviews dataset. If I can combine the two tables using a query I should be able to create a customer list by host_id, host_url, host_name, neighbourhood where I can filter for comments with the word "dirty" for example, and sort them by descending order to get the top hosts with the most reviews with the word "dirty".
 
