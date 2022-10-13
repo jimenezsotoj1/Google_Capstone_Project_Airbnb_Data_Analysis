@@ -37,7 +37,7 @@ A quick glance at the data shows that there are:
 * Price ranges from **$10 - $10,000** a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
-Before jumping into the exploratory Data Analysis, I created a `cleaned_listings` table from the `listings` dataset where I removed all *Null* values from the listing_url, host_name, neighbourhood_cleansed, room_type and bedrooms columns. Removing null values from the columns of interest resulted in a table with 5,529 unique lisitngs. We will be using the cleaned listings dataset and the reviews dataset in our exploratory data analysis.
+I created a `cleaned_listings` table from the `listings` dataset where I removed all *Null* values from the listing_url, host_name, neighbourhood_cleansed, room_type and bedrooms columns. Removing null values from the columns of interest resulted in a table with 5,529 unique lisitngs. We will be using the cleaned listings dataset and the reviews dataset in our exploratory data analysis.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -45,9 +45,19 @@ In this section, we will detail our analysis to the questions of interest mentio
 
 ### Properties
 
-Our first business task is to identify the different property types in the rental market. Having a clear understanding of the rental market allows us to identify our potential customers and better market our servicing company. Through our initial observations we can see that rhere are four different properties types in Denver: Entire homes, private room, shared room and Hotel room.
-![image](https://user-images.githubusercontent.com/42790824/195478154-d237e136-fb26-4890-bc60-6b0c34c7b29a.png)
-From this analysis Emtire homes have the 
+Our first business task is to identify the different property types in the Arbnb rental market. Having a clear understanding of the rental market allows us to identify our potential customers and better market our Airbnb servicing company. As we begin our eploratory data analysis, we can see that there are four different property types for listings in Denver: Entire homes, private room, shared room and Hotel room.
+
+![image](https://user-images.githubusercontent.com/42790824/195486012-73b0a7b9-94f7-429d-9c2f-b5c09d2875de.png)
+
+Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market belongs to Private rooms, which make up for 17% of the market with 916 active listings. By diving deeper into the Entire Homes/apt segment we can see that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1-3 bedrooms.
+
+![image](https://user-images.githubusercontent.com/42790824/195491267-12641390-9851-4a22-a575-6f8cc8669d98.png)
+
+Looking at the data, it is interesting how quickly we are able to understand the markets' preference. Identifying the right segment and bedroom distribution allows us to make more informed decicions, putting us one step closer to their goal of successfully identifying the different types of potential customers and developing a strategy to address them.
+
+### Prices
+
+Our second business task relates to prcing 
 
 ```sql
 SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
