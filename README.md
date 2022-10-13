@@ -53,11 +53,11 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 **Table 1**
 
-![image](https://user-images.githubusercontent.com/42790824/195717187-4ec98d59-5275-43af-9a74-39a7f7712cd7.png)
+![image](https://user-images.githubusercontent.com/42790824/195717529-d1e0107d-e350-4278-833b-64f9e3d97329.png)
 
 **Table 2**
 
-![image](https://user-images.githubusercontent.com/42790824/195717236-68037864-e03f-46e9-b41b-9e976975e40b.png)
+![image](https://user-images.githubusercontent.com/42790824/195717495-cdef1b89-ecfa-48fe-9373-2eb42fefe629.png)
 
 
 ### Prices
