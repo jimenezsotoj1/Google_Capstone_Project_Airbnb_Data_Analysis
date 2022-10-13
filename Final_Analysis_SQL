@@ -93,4 +93,11 @@ SELECT comments
 FROM `lithe-creek-364913.airbnb_data.joined_listings_and_reviews`
 ````
 
+# Query used to join the cleaned listings and the review table
+```sql
+SELECT * 
+FROM `lithe-creek-364913.airbnb_data.reviews_denver`
+INNER JOIN `lithe-creek-364913.airbnb_data.listings_denver` ON CAST(`lithe-creek-364913.airbnb_data.listings_denver`.id AS STRING) = CAST(`lithe-creek-364913.airbnb_data.reviews_denver`.listing_id AS STRING)
+````
+
 
