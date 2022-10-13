@@ -57,7 +57,7 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 **Table 2**
 
-![image](https://user-images.githubusercontent.com/42790824/195677790-308a8404-64c5-4912-8f38-f72c03a3327c.png)
+![image](https://user-images.githubusercontent.com/42790824/195716661-d704182c-47aa-419e-8c88-f5cc5de29322.png)
 
 
 ### Prices
@@ -70,12 +70,12 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 **Table 3**
 
-![image](https://user-images.githubusercontent.com/42790824/195680136-86bca769-ec51-4cb0-889b-acafcd4f4ab7.png)
+![image](https://user-images.githubusercontent.com/42790824/195716585-1dfe935d-9f36-4f37-a679-cdfe7c59e64e.png)
 
 
-### Prices
+### Common Themes
 
-For the third business task, I need to identify ommon themesfrom the text section of the reviews. 
+For the third business task, I need to identify ommon themesfrom the text section of the reviews. For this excercise I ran a query and created a new table where I joined the cleaned listings and the reviews datasets by listing ID.
 
 
 
