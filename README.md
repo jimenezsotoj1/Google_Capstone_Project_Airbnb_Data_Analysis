@@ -45,8 +45,8 @@ In this section, we will detail our analysis to the questions of interest mentio
 
 ### Properties
 
-There are four different properties types in Denver: Entire homes, private room, shared room and Hotel room.
-#### ![image](https://user-images.githubusercontent.com/42790824/195473572-d1e2a873-013d-47ea-b5a8-6c74ac3f508c.png)
+Our first business task is to identify the different property types in the rental market. Having a clear understanding of the rental market allows us to identify our potential customers and better market our servicing company. Through our initial observations we can see that rhere are four different properties types in Denver: Entire homes, private room, shared room and Hotel room.
+![image](https://user-images.githubusercontent.com/42790824/195478154-d237e136-fb26-4890-bc60-6b0c34c7b29a.png)
 From this analysis Emtire homes have the 
 
 ```sql
