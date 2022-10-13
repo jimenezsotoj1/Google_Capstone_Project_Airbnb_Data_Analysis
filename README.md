@@ -73,17 +73,10 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 ### Common Themes
 
-For the third business task, I need to identify ommon themesfrom the text section of the reviews. For this excercise I ran a query and created a new table where I joined the cleaned listings and the reviews datasets by listing ID.
+For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were left on reviews. Below I share some visualization created using a free word cloud generator I found online. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data (see table 4).
 
+![word-cloud](https://user-images.githubusercontent.com/42790824/195720048-17c705ec-f6da-4930-8fb0-51911e546c0d.png)
 
-
-
-```sql
-SELECT DISTINCT neighbourhood_cleansed, COUNT(neighbourhood_cleansed) as active_listings
-FROM `lithe-creek-364913.airbnb_data.listings_denver`
-GROUP BY neighbourhood_cleansed
-ORDER BY active_listings DESC;
-````
 
 
 
