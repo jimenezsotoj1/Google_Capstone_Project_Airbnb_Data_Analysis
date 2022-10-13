@@ -66,5 +66,12 @@ WHERE room_type = 'Entire home/apt'
 GROUP BY bedrooms
 ````
 
+### Avg price per night by neighbourhoods 
+```sql
+SELECT  neighbourhood_cleansed, AVG(price) as avg_price
+FROM `lithe-creek-364913.airbnb_data.cleaned_listings`
+GROUP BY neighbourhood_cleansed
+ORDER BY avg_price DESC;
+````
 
 
