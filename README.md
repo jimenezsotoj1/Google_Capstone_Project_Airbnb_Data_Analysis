@@ -3,11 +3,11 @@
 ## Introduction
 I love to travel and nearly everywhere I go I end up using Airbnb to book my stay. Some of my favorite stays include cities such as New York, Denver, London, Barcelona and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in investing in an Airbnb cleaning business. For this project I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate ocasions and every year I find myself wanting to go back to see the Rocky Mountains during wintertime. The data I will be using for this analysis is collected by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, SQL and Tableau in order to solve the following business tasks.
 
-## Business Task
+## Business Tasks
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
 In my experience, cleaning fees when booking an Airbnb have been steadily increasing over time with little to no changes in booking cleanliness. Because cleaning is the only human element required to operate an Airbnb business, I believe a good business opportunity exists in creating a servicing company that can improve an Airbnb owner's operating system. 
 
-#### Business Task:
+#### Business Tasks:
 
 * What are the different types of properties in Denver? 
 * How do prices of listings vary by Neighborhood?
@@ -70,7 +70,7 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 **Table 3**
 
-![image](https://user-images.githubusercontent.com/42790824/195717448-3c72e584-2695-47a2-a15c-be34498eb212.png)
+![image](https://user-images.githubusercontent.com/42790824/195718174-988fd056-e835-4064-8244-d3c98fe6f1d5.png)
 
 ### Common Themes
 
