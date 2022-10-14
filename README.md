@@ -118,5 +118,5 @@ There are certain words such as words such as “great, clean, comfortable, cozy
 Yes, I was able to create a list sorted by host_id, host_url and host_name. There was a total of 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty".
 
 ## Future Exploration
-As an investor, I would want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting soon.
+As an investor, I would want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own area of interest instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting soon.
 
