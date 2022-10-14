@@ -114,6 +114,9 @@ The highest average price per night for the top 10 neighbourhoods ranges from $2
 **3.What are some common themes that can be identified from the text section of the reviews?**
 There are certain words such as words such as “great, clean, comfortable, cozy, perfect” that are associated with the location and cleanliness. Most of the texts shown are overwhelmingly positive adjectives.
 
+**4.Can we identify a list of potential customers for an Airbnb cleaning Business?**
+Yes, I was able to create a list sorted by host_id, host_url and host_name. There were a total od 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty".
+
 
 
 
