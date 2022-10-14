@@ -101,6 +101,13 @@ I also conducted additional analysis on the "dirty" comments to show the count o
 
 ![image](https://user-images.githubusercontent.com/42790824/195734815-aff2b6e7-45f4-49d0-8546-7d65cddc370a.png)
 
+## Conclusion
+
+Through this exploratory data analysis and visualizations, we gained some interesting insights into Denver's Airbnb rental market. Below I will summarise the answers to the questions that we wished to answer at the beginning of the project:
+
+**1.What are the different types of properties in Denver?**
+
+
 
 
 
