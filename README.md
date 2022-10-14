@@ -93,11 +93,14 @@ As an inverstor, I see these results as an opportunity to create a high-tiered s
 
 For the fourth and final business task, I am tasked to determine if its possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and run another query to pull in a customer list by host_id, host_url, host_name, neighbourhood where I can filter for comments with the word "dirty" for example, and sort them by descending order to get the top hosts with the most reviews with that word. I want to see the host_id, host_url and host_name instead of the actual review because I can later use the hosts information to contact my potential customers. 
 
-Our initial findings show that there are 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can see the full list of potential customers (table 6) **here**. I conducted additional analysis to show the count of "dirty" comments by neighbourhood. I conduected this analysis to see if there are any potential customers in the geographical region of interest discussed earlier while discussing our **Prices** setcion.
+Our initial findings show that there are 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can see the full list of potential customers (table 6) **here**. 
+
+I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our **Prices** setcion. By looking at the visualization (table 7) we can see two of our desirable neighbourhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
 
 **Table 7**
 
-![image](https://user-images.githubusercontent.com/42790824/195733843-f8d842a4-4d9d-4ce9-af4f-f5fcf2c997ad.png)
+![image](https://user-images.githubusercontent.com/42790824/195734815-aff2b6e7-45f4-49d0-8546-7d65cddc370a.png)
+
 
 
 
