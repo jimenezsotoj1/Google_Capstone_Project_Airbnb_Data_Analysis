@@ -93,11 +93,11 @@ As an inverstor, I see these results as an opportunity to create a high-tiered s
 
 For the fourth and final business task, I am tasked to determine if its possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset. By combining the two tables using a query I should be able to create a table and run another query to pull in a customer list by host_id, host_url, host_name, neighbourhood where I can filter for comments with the word "dirty" for example, and sort them by descending order to get the top hosts with the most reviews with that word. I want to see the host_id, host_url and host_name instead of the actual review because I can later use the hosts information to contact my potential customers. 
 
-Our initial findings show that there are 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can see the full list of potential customers see table 6 **here**. I conducted additional analysis to show the count of comments by neighbourhood. 
+Our initial findings show that there are 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can see the full list of potential customers see table 6 **here**. I conducted additional analysis to show the count of "dirty" comments by neighbourhood. I conduected this analysis to see if there are any potential customers in the geographical region of interest discussed earlier while discussing our **Prices** setcion.
 
 **Table 7**
 
-![image](https://user-images.githubusercontent.com/42790824/195733806-521369a2-6b8a-4359-b340-2de43b3adbc2.png)
+![image](https://user-images.githubusercontent.com/42790824/195733843-f8d842a4-4d9d-4ce9-af4f-f5fcf2c997ad.png)
 
 
 
