@@ -95,7 +95,7 @@ For the fourth and final business task, I am tasked to determine if it's possibl
 
 Our initial findings show that there are 727 reviews containing the word "dirty" amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can **download** the full list of potential customers (table 6) **[Here](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/Airbnb_Data_Analysis_Project_EXCEL.xlsx)**. 
 
-I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our **Prices** section. By looking at the visualization (table 7) we can see two of our desirable neighbourhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
+I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our [**Prices**](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/README.md#prices) section. By looking at the visualization (table 7) we can see two of our desirable neighbourhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
 
 **Table 7**
 
