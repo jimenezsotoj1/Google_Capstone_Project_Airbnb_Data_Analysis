@@ -100,7 +100,7 @@ FROM `lithe-creek-364913.airbnb_data.reviews_denver`
 INNER JOIN `lithe-creek-364913.airbnb_data.listings_denver` ON CAST(`lithe-creek-364913.airbnb_data.listings_denver`.id AS STRING) = CAST(`lithe-creek-364913.airbnb_data.reviews_denver`.listing_id AS STRING)
 ````
 
-## Query used to create a potential custoemr list
+## Query used to create a potential customer list
 ```sql
 SELECT host_id, host_url, host_name, COUNT(*) AS num_dirty_reviews
 FROM `lithe-creek-364913.airbnb_data.joined_listings_and_reviews`
@@ -109,7 +109,7 @@ GROUP BY host_id, host_url, host_name
 ORDER BY num_dirty_reviews DESC;
 ````
 
-## Query used to create a potential custoemr list
+## Query used to create a potential customer list by neighbourhood
 ```sql
 SELECT neighbourhood_cleansed, COUNT(*) AS num_dirty_reviews
 FROM `lithe-creek-364913.airbnb_data.joined_listings_and_reviews`
