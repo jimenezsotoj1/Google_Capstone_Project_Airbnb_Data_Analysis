@@ -1,7 +1,7 @@
 # Airbnb Data Analysis Project
 
 ## Introduction
-I love to travel and nearly everywhere I go I end up using Airbnb to book my stay. Some of my favorite stays include cities such as New York, Denver, London, Barcelona and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in investing in an Airbnb cleaning business. For this project I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate occasions and every year I find myself wanting to go back to see the Rocky Mountains during wintertime. The data I will be using for this analysis is collected by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, and SQL in order to solve the following business tasks.
+I love to travel and I always end up using Airbnb to book my stay everywhere I go. Some of my favorite stays include cities such as New York, Denver, London, Barcelona, and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in investing in an Airbnb cleaning business. For this project I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate occasions and every year I find myself wanting to go back to see the Rocky Mountains during wintertime. The data I will be using for this analysis is collected by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, and SQL in order to solve the following business tasks.
 
 ## Business Tasks
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
@@ -19,7 +19,7 @@ In my experience, cleaning fees when booking an Airbnb have been steadily increa
 
 I first downloaded two compressed csv files from Inside Airbnb's latest information on Airbnb rentals in Denver as of September 2022:
 
-* `listings` - contains detailed listings data showing attibutes for each of the listings. Some of the attributes used in the analysis are neighbourhood_cleansed, room_type, host_name, longitude, latitude, listing_type among others.
+* `listings` - contains detailed listings data showing attributes for each of the listings. Some of the attributes used in the analysis are neighbourhood_cleansed, room_type, host_name, longitude, latitude, listing_type among others.
 * `reviews` - contains detailed reviews given by the guests. Key attributes include date, listing_id, reviewer_id and comment.
 
 I then used an unzipping tool to convert them into regular csv files. 
@@ -31,7 +31,7 @@ I initially reviewed the downloaded data in excel, since it’s the tool I am mo
 A quick glance at the data shows that there are:
 
 
-* 5,801 unique listings across 78 neighbourhoods in the City of Denver .
+* 5,801 unique listings across 78 neighborhoods in the City of Denver .
 * A total of 314,858 reviews for 4,966 of those unique listings.
 * Price ranges from $10 - $10,000 a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
@@ -46,9 +46,9 @@ In this section, we will detail the analysis to the questions of interest mentio
 
 My first business task is to identify the different property types in the Airbnb rental market. Having a clear understanding of the rental market allows me to identify my potential customers and better market my Airbnb servicing company. As I begin the exploratory data analysis, we can see that there are four different property types for listings in Denver: Entire homes, private room, shared room and Hotel room (See table 1).
 
-Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market belongs to Private rooms, which make up for 17% of the market with 916 active listings. Additional analysis over the Entire Homes/apt segment we can see that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1 to 3 bedrooms (See table 2). This information will be very useful when deciding how I will be pricing my cleaning services in a way that maintains margins and appeals to my customers.
+Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market is private rooms, which make up 17% of the market with 916 active listings. Additional analysis over the Entire Homes/apt segment we can see that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1 to 3 bedrooms (See table 2). This information will be very useful when deciding how I will be pricing my cleaning services in a way that maintains margins and appeals to my customers.
 
-Looking at the data, it is interesting how quickly we are able to understand the markets' preference. Identifying the right segment and amount of bedrooms per listing allows me, the investor, to make more informed decisions, putting the business one step closer towards the goal of successfully identifying the customers and addressing them.
+Looking at the data, it is interesting how quickly we can understand the markets' preferences. Identifying the right segment and numnber of bedrooms per listing allows me, the investor, to make more informed decisions, putting the business one step closer towards the goal of successfully identifying the customers and addressing them.
 
 **Table 1**
 
@@ -75,11 +75,11 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were on the reviews dataset. I then used an online word cloud generator and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency. 
 
-By looking at the comments visualization (see table 4), at first glance, I can see that some of the largest words are: great, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb.
+By looking at the comments visualization (see table 4), at first glance, I can see that some of the largest words are: great, clean, comfortable, cozy, perfect and many more. Most of the high-frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb.
 
-The reviews dataset contained another category where the hosts listed all of the rental amenities in text form so I decided to take a look at the most common amenities mentioned that can be found amongst Denver Airbnb rentals (See table 5). Visualizing the most frequently listed ammenities allows you to identify what is important to your customers. If there are any amenities that require maintenance or replacements, it could present an oportunity for a cleaning business to offer upkeep and replacements for such.  By looking at the amenities visualization (see table 5), at first glance, I can see some of the largest words are: alarm, water, coffee, shampoo, hangers, etc. 
+The reviews dataset contained another category where the hosts listed all of the rental amenities in text form so I decided to take a look at the most common amenities mentioned that can be found amongst Denver Airbnb rentals (See table 5). Visualizing the most frequently listed amenities allows you to identify what is important to your customers. If there are any amenities that require maintenance or replacements, it could present an opportunity for a cleaning business to offer upkeep and replacements for such.  By looking at the amenities visualization (see table 5), at first glance, I can see some of the largest words are: alarm, water, coffee, shampoo, hangers, etc. 
 
-As an inverstor, I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing ones like those in the visualization. This tier could consist of a team to organize all house items and replenish supplies and amenities according to the quality standards of a luxury stay.
+As an investor, I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing ones like those in the visualization. This tier could consist of a team to organize all house items and replenish supplies and amenities according to the quality standards of a luxury stay.
 
 **Table 4**
 
@@ -91,11 +91,11 @@ As an inverstor, I see these results as an opportunity to create a high-tiered s
 
 ### Potential Customers
 
-For the fourth and final business task, I am tasked to determine if it's possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis, I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and pull in a customer list by host_id, host_url, host_name and neighbourhood where I can filter for comments with the word "dirty", and sort them by descending order to get the top hosts with the most reviews containing that word. I want to see the host_id, host_url and host_name instead of the actual reviews because I can later use the hosts information I am pulling to contact my potential customers. 
+For the fourth and final business task, I am tasked to determine if it's possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis, I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and pull in a customer list by host_id, host_url, host_name and neighbourhood where I can filter for comments with the word "dirty", and sort them by descending order to get the top hosts with the most reviews containing that word. I want to see the host_id, host_url and host_name instead of the actual reviews because I can later use the hosts information to contact potential customers. 
 
 Our initial findings show that there are 727 reviews containing the word "dirty" amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can **download** the full list of potential customers (table 6) **[Here](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/Airbnb_Data_Analysis_Project_EXCEL.xlsx)**. 
 
-I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our **Prices** setcion. By looking at the visualization (table 7) we can see two of our desirable neighbourhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
+I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our **Prices** section. By looking at the visualization (table 7) we can see two of our desirable neighbourhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
 
 **Table 7**
 
@@ -103,10 +103,10 @@ I also conducted additional analysis on the "dirty" comments to show the count o
 
 ## Conclusion
 
-Through this exploratory data analysis and visualizations, I gained some interesting insights into Denver's Airbnb rental market. Below I will summarise the answers to the questions that I wished to answer at the beginning of the project:
+Through this exploratory data analysis and visualizations, I gained some interesting insights into Denver's Airbnb rental market. Below I will summarize the answers to the questions that I wished to answer at the beginning of the project:
 
 **1.What are the different types of properties in Denver?**
-There are four different types of properties in Denver: Entire home/apt, Private room, Shared room and Hotel Room. The Entire home/apt (82%) and the Private room (17%) account for 99% of the current active listings. the vast majority of listings (90% or 4,111 listigns) in the Entire home/apt category have between 1 and 3 bedroooms.
+There are four different types of properties in Denver: Entire home/apt, Private room, Shared room and Hotel Room. The Entire home/apt (82%) and the Private room (17%) account for 99% of the current active listings. the vast majority of listings (90% or 4,111 listings) in the Entire home/apt category have between 1 and 3 bedroooms.
 
 **2.How do prices of listings vary by Neighborhood?**
 The highest average price per night for the top 10 neighbourhoods ranges from $211-$341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creek, University Park, Cory-Merrill, CBD, Cole, Five points, Country Club, Highland and Civic Center.
@@ -115,8 +115,8 @@ The highest average price per night for the top 10 neighbourhoods ranges from $2
 There are certain words such as words such as “great, clean, comfortable, cozy, perfect” that are associated with the location and cleanliness. Most of the texts shown are overwhelmingly positive adjectives.
 
 **4.Can we identify a list of potential customers for an Airbnb cleaning Business?**
-Yes, I was able to create a list sorted by host_id, host_url and host_name. There were a total od 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty".
+Yes, I was able to create a list sorted by host_id, host_url and host_name. There was a total of 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty".
 
 ## Future Exploration
-As an investor, I would definitely want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting in the near future.
+As an investor, I would want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting soon.
 
