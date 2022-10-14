@@ -48,7 +48,7 @@ My first business task is to identify the different property types in the Airbnb
 
 Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market belongs to Private rooms, which make up for 17% of the market with 916 active listings. Additional analysis over the Entire Homes/apt segment we can see that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1 to 3 bedrooms (See table 2). This information will be very useful when deciding how I will be pricing my cleaning services in a way that maintains margins and appeals to my customers.
 
-Looking at the data, it is interesting how quickly we are able to understand the markets' preference. Identifying the right segment and amount of bedrooms per listing allows me, the investor, to make more informed decicions, putting the business one step closer towards the goal of successfully identifying the customers and addressing them.
+Looking at the data, it is interesting how quickly we are able to understand the markets' preference. Identifying the right segment and amount of bedrooms per listing allows me, the investor, to make more informed decisions, putting the business one step closer towards the goal of successfully identifying the customers and addressing them.
 
 **Table 1**
 
@@ -63,9 +63,9 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 The second business task is to identify how pricing varies by neighbourhood. Conducting a pricing analysis can help me, the investor, develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by taking a look at the top 10 neighbourhoods with the largest average price per night (See table 3). 
 
-Initial observation shows that the average privce per night for the top 10 neighbourhoods ranges from $211 to $341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creeek, University Park, Cory-Merrill, CBD, Cole, Five points, Country club, Highland and Civic Center. I decided to only look at the top 10 neighbourhoods because hosts don’t necessarily need to charge a cleaning fee. In some cases, the host may feel charging a cleaning fee drives their booking price up too much. In these instances, hosts generally do their own cleaning or pay the cost themselves of hiring a cleaning company.
+Initial observation shows that the average price per night for the top 10 neighbourhoods ranges from $211 to $341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creek, University Park, Cory-Merrill, CBD, Cole, Five points, Country Club, Highland and Civic Center. I decided to only look at the top 10 neighbourhoods because hosts don’t necessarily need to charge a cleaning fee. In some cases, the host may feel charging a cleaning fee drives their booking price up too much. In these instances, hosts generally do their own cleaning instead of paying the cost of hiring a cleaning company.
 
-However, by looking at the higher average price points by neighbourhood, we can identify the geographic location of hosts that are more likely to have a cleaning fee and be listing a luxury stay. Therefore, they are more likely to want to maintain the advertised living standards and have the capital to do so.
+However, by looking at the higher average price points by neighbourhood, we can identify the geographic location of hosts that are more likely to have a cleaning fee and be listing a luxury stay. Therefore, they are more likely to want to maintain the advertised living standards and have the capital to afford hiring a cleaning service.
 
 **Table 3**
 
@@ -73,13 +73,13 @@ However, by looking at the higher average price points by neighbourhood, we can 
 
 ### Common Themes
 
-For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were left on reviews. I then used  word cloud generator online and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency. 
+For the third business task, I need to identify common themes from the text section of the reviews. For this analysis I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were on the reviews dataset. I then used an online word cloud generator and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency. 
 
-By looking at the comments visualization (see table 4), at first glance, I can see that the some of the largest words that stick out to me are: great, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb. 
+By looking at the comments visualization (see table 4), at first glance, I can see that some of the largest words are: great, clean, comfortable, cozy, perfect and many more. Most of the high frequency texts shown are overwhelmingly positive adjectives one would hope to find when looking for honest feedback on an Airbnb.
 
-The reviews dataset contained another category where the hosts listed all of the rental amenities in text form so I decided to take a look at what are the most common amenities you can find amongst Denver Airbnb rentals (See table 5). Visualizing the most frequently listed ammenities allows you to identify what is important to your customers. If there are any amenities that require maintenance or replacements, they could present an oportunity for a cleaning business to offer upkeep and replacements for such.  By looking at the amenities visualization (see table 5), at first glance, I can see some of the largest words shown are: alarm, parking, water, coffee, shampoo, hangers, etc. 
+The reviews dataset contained another category where the hosts listed all of the rental amenities in text form so I decided to take a look at the most common amenities mentioned that can be found amongst Denver Airbnb rentals (See table 5). Visualizing the most frequently listed ammenities allows you to identify what is important to your customers. If there are any amenities that require maintenance or replacements, it could present an oportunity for a cleaning business to offer upkeep and replacements for such.  By looking at the amenities visualization (see table 5), at first glance, I can see some of the largest words are: alarm, water, coffee, shampoo, hangers, etc. 
 
-As an inverstor, I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing like the ones with tyhe highest frequency. This tier could consist of a team to organize all house items and replenish supplies and amenities according to the quality standards of a luxury stay.
+As an inverstor, I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing ones like those in the visualization. This tier could consist of a team to organize all house items and replenish supplies and amenities according to the quality standards of a luxury stay.
 
 **Table 4**
 
@@ -91,9 +91,9 @@ As an inverstor, I see these results as an opportunity to create a high-tiered s
 
 ### Potential Customers
 
-For the fourth and final business task, I am tasked to determine if its possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and run another query to pull in a customer list by host_id, host_url, host_name, neighbourhood where I can filter for comments with the word "dirty" for example, and sort them by descending order to get the top hosts with the most reviews with that word. I want to see the host_id, host_url and host_name instead of the actual review because I can later use the hosts information to contact my potential customers. 
+For the fourth and final business task, I am tasked to determine if it's possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis, I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and pull in a customer list by host_id, host_url, host_name and neighbourhood where I can filter for comments with the word "dirty", and sort them by descending order to get the top hosts with the most reviews containing that word. I want to see the host_id, host_url and host_name instead of the actual reviews because I can later use the hosts information I am pulling to contact my potential customers. 
 
-Our initial findings show that there are 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can see the full list of potential customers (table 6) **here**. 
+Our initial findings show that there are 727 reviews containing the word "dirty" amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can see the full list of potential customers (table 6) **here**. 
 
 I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our **Prices** setcion. By looking at the visualization (table 7) we can see two of our desirable neighbourhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
 
@@ -103,13 +103,13 @@ I also conducted additional analysis on the "dirty" comments to show the count o
 
 ## Conclusion
 
-Through this exploratory data analysis and visualizations, we gained some interesting insights into Denver's Airbnb rental market. Below I will summarise the answers to the questions that we wished to answer at the beginning of the project:
+Through this exploratory data analysis and visualizations, I gained some interesting insights into Denver's Airbnb rental market. Below I will summarise the answers to the questions that I wished to answer at the beginning of the project:
 
 **1.What are the different types of properties in Denver?**
 There are four different types of properties in Denver: Entire home/apt, Private room, Shared room and Hotel Room. The Entire home/apt (82%) and the Private room (17%) account for 99% of the current active listings. the vast majority of listings (90% or 4,111 listigns) in the Entire home/apt category have between 1 and 3 bedroooms.
 
 **2.How do prices of listings vary by Neighborhood?**
-The highest average price per night for the top 10 neighbourhoods ranges from $211-$341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creeek, University Park, Cory-Merrill, CBD, Cole, Five points, Country club, Highland and Civic Center.
+The highest average price per night for the top 10 neighbourhoods ranges from $211-$341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creek, University Park, Cory-Merrill, CBD, Cole, Five points, Country Club, Highland and Civic Center.
 
 **3.What are some common themes that can be identified from the text section of the reviews?**
 There are certain words such as words such as “great, clean, comfortable, cozy, perfect” that are associated with the location and cleanliness. Most of the texts shown are overwhelmingly positive adjectives.
@@ -118,5 +118,5 @@ There are certain words such as words such as “great, clean, comfortable, cozy
 Yes, I was able to create a list sorted by host_id, host_url and host_name. There were a total od 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty".
 
 ## Future Exploration
-As an investor, I would definitely want to expand our analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project to my professional setting in the near future.
+As an investor, I would definitely want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting in the near future.
 
