@@ -61,7 +61,7 @@ Looking at the data, it is interesting how quickly we are able to understand the
 
 ### Prices
 
-The second business task is to identify how pricing varies by neighbourhood. Conducting a pricing analysis can help me, the inverstor, develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by taking a look at the top 10 neighbourhoods with the largest average price per night (See table 3). 
+The second business task is to identify how pricing varies by neighbourhood. Conducting a pricing analysis can help me, the investor, develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by taking a look at the top 10 neighbourhoods with the largest average price per night (See table 3). 
 
 Initial observation shows that the average privce per night for the top 10 neighbourhoods ranges from $211 to $341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creeek, University Park, Cory-Merrill, CBD, Cole, Five points, Country club, Highland and Civic Center. I decided to only look at the top 10 neighbourhoods because hosts don’t necessarily need to charge a cleaning fee. In some cases, the host may feel charging a cleaning fee drives their booking price up too much. In these instances, hosts generally do their own cleaning or pay the cost themselves of hiring a cleaning company.
 
@@ -106,6 +106,10 @@ I also conducted additional analysis on the "dirty" comments to show the count o
 Through this exploratory data analysis and visualizations, we gained some interesting insights into Denver's Airbnb rental market. Below I will summarise the answers to the questions that we wished to answer at the beginning of the project:
 
 **1.What are the different types of properties in Denver?**
+There are four different types of properties in Denver: Entire home/apt, Private room, Shared room and Hotel Room. The Entire home/apt (82%) and the Private room (17%) account for 99% of the current active listings. the vast majority of listings (90% or 4,111 listigns) in the Entire home/apt category have between 1 and 3 bedroooms.
+
+**2.How do prices of listings vary by Neighborhood?**
+The highest average price per night for the top 10 neighbourhoods ranges from $211-$341 a night. The neighbourhoods with the highest average price per night include Belcaro, Cherry Creeek, University Park, Cory-Merrill, CBD, Cole, Five points, Country club, Highland and Civic Center.
 
 
 
