@@ -40,7 +40,7 @@ I continued the cleaning process by creating a `cleaned_listings` table from the
 
 ## Exploratory Data Analysis (EDA)
 
-In this section, we will detail the analysis to the questions of interest mentioned in the business task and gain preliminary insights through exploratory data analysis. We have divided it into four subsections that aim to answer the questions through a variety of different visualizations.
+In this section, we will detail the analysis to the questions of interest mentioned in the business tasks and gain preliminary insights through exploratory data analysis. We have divided it into four subsections that aim to answer the questions through a variety of different visualizations.
 
 ### Properties
 
