@@ -99,7 +99,7 @@ I also conducted additional analysis on the "dirty" comments to show the count o
 
 **Table 7**
 
-![image](https://user-images.githubusercontent.com/42790824/195734815-aff2b6e7-45f4-49d0-8546-7d65cddc370a.png)
+![image](https://user-images.githubusercontent.com/42790824/196058947-e1d502c5-a262-4405-a328-267559a67164.png)
 
 ## Conclusion
 
