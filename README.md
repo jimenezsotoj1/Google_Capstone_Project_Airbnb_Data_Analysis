@@ -42,7 +42,7 @@ I continued the cleaning process by creating a cleaned_listings table from the l
 
 In this section, I will detail the analysis to the questions of interest mentioned in the business tasks and gain preliminary insights through exploratory data analysis. I have divided the EDA into four subsections that aim to answer the questions through a variety of different visualizations.
 
-### Properties
+### 1.) Properties
 
 My first business task is to identify the different property types in the Airbnb rental market. Having a clear understanding of the rental market allows me to identify my potential customers and better market my Airbnb servicing company. As I begin the exploratory data analysis, I can see that there are four different property types for listings in Denver: Entire homes, private rooms, shared rooms, and Hotel rooms (See table 1).
 
@@ -59,7 +59,7 @@ Looking at the data, it is interesting how quickly we can understand the markets
 ![image](https://user-images.githubusercontent.com/42790824/196058999-1edf1d6a-8981-4e3b-86c8-660b0510e163.png)
 
 
-### Prices
+### 2.) Prices
 
 The second business task is to identify how pricing varies by neighborhood. Conducting a pricing analysis can help me, the investor, develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by looking at the top 10 neighborhoods with the largest average price per night (See table 3).
 
@@ -71,7 +71,7 @@ However, by looking at the higher average price points by neighborhood, we can i
 
 ![image](https://user-images.githubusercontent.com/42790824/195718767-0e97ddfd-87c9-4caa-93cf-1dddc9a1833c.png)
 
-### Common Themes
+### 3.) Common Themes
 
 For the third business task, I need to identify common themes from the text section of the reviews. For this analysis, I used the reviews dataset and extracted the comments column in order to isolate all 314,858 comments that were on the reviews dataset. I then used an online word cloud generator and uploaded the dataset to create a visualization. A word cloud generator is a tool that uses simple text analysis to help you visualize and summarize qualitative data. The visualization design gives greater emphasis to words that appear more frequently in the text. The larger the word, the higher its frequency.
 
@@ -88,7 +88,7 @@ As an investor, I see these results as an opportunity to create a high-tiered se
 
 ![image](https://user-images.githubusercontent.com/42790824/195723366-4a607feb-150b-42ea-9153-b90c23184873.png)
 
-### Potential Customers
+### 4.) Potential Customers
 
 For the fourth and final business task, I am tasked to determine if it's possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis, I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and pull in a customer list by host_id, host_url, host_name and neighbourhood where I can filter for comments with the word "dirty", and sort them by descending order to get the top hosts with the most reviews containing that word. I want to see the host_id, host_url and host_name instead of the actual reviews because I can later use the hosts information to contact potential customers. 
 
