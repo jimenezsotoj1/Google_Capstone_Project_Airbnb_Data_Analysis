@@ -48,7 +48,7 @@ My first business task is to identify the different property types in the Airbnb
 
 Initial observations indicate the Entire Homes/apt is the largest segment, making up for 82% of the market or 4,546 of the listings. The second largest market is private rooms, which make up 17% of the market with 916 active listings. Additional analysis over the Entire Homes/apt segment shows that out of the 4,546 listings in the Entire Homes/apt segment, 90% or 4,111 of listings have between 1 to 3 bedrooms (See table 2). This information will be very useful when deciding how I will be pricing my cleaning services in a way that maintains margins and appeals to my customers.
 
-Looking at the data, it is interesting how quickly we can understand the markets' preferences. Identifying the right segment and number of bedrooms per listing allows me, the investor, to make more informed decisions, putting the business one step closer to the goal of successfully identifying the customers and addressing them.
+Looking at the data, it is interesting how quickly we can understand the markets' preferences. Identifying the right segment and number of bedrooms per listing allows me, the investor, to make more informed decisions, putting the business one step closer to the goal of successfully identifying and addressing our target market.
 
 **Table 1**
 
