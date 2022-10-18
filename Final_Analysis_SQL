@@ -60,10 +60,9 @@ GROUP BY room_type
 ````
 ### Distribution of bedrooms 
 ```sql
-SELECT  DISTINCT bedrooms, COUNT(room_type) num_listings
+SELECT  DISTINCT room_type, bedrooms, COUNT(room_type) num_listings
 FROM `lithe-creek-364913.airbnb_data.cleaned_listings`
-WHERE room_type = 'Entire home/apt'
-GROUP BY bedrooms
+GROUP BY room_type, bedrooms
 ````
 
 ### Avg price per night by neighbourhoods 
