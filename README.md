@@ -56,7 +56,7 @@ Looking at the data, it is interesting how quickly we can understand the markets
 
 **Table 2**
 
-![image](https://user-images.githubusercontent.com/42790824/196058999-1edf1d6a-8981-4e3b-86c8-660b0510e163.png)
+![image](https://user-images.githubusercontent.com/42790824/196312162-da271097-ea38-4098-bd38-2e4d5063ab76.png)
 
 
 ### 2.) Prices
