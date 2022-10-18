@@ -52,7 +52,7 @@ Looking at the data, it is interesting how quickly we can understand the markets
 
 **Table 1**
 
-![image](https://user-images.githubusercontent.com/42790824/195717647-3d1988f7-87e1-4641-9b13-12813076c177.png)
+![image](https://user-images.githubusercontent.com/42790824/196313271-fc5ad718-8ff0-42a3-a2a7-661e6a1108c2.png)
 
 **Table 2**
 
