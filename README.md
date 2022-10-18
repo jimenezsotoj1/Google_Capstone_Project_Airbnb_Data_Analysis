@@ -1,8 +1,6 @@
-# My Google Data Analytics Capstone Project - Airbnb Data Analysis
+# Google Data Analytics Capstone Project - Airbnb Data Analysis
 
-This is the final project for the Google Data Analytics Professional Certificate course. 
-
-For this case study, I decided to choose a business question that is of particular interest to me; I will be analyzing a public dataset on a specific Airbnb rental market, provided by **[Inside Airbnb](insideairbnb.com)**.
+This is my final project for the Google Data Analytics Professional Certificate course. For this case study, I decided to choose a business question that is of particular interest to me; I will be analyzing a public dataset on a specific Airbnb rental market, provided by **[Inside Airbnb](insideairbnb.com)**.
 
 **Note**: Attached to this repository you will find the final SQL analysis, tables and links to datasets used in the analysis.
 
