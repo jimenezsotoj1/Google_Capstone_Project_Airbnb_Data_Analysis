@@ -1,11 +1,13 @@
 # My Google Data Analytics Capstone Project - Airbnb Data Analysis
 
-This is the final project for the Google Data Analytics Professional Certificate course. For this case study, I decided to choose a business question that is of particular interest to me. I will be analyzing a public dataset on the Denver, CO Airbnb rental market, provided by **[Inside Airbnb's](insideairbnb.com)**.
+This is the final project for the Google Data Analytics Professional Certificate course. 
+
+For this case study, I decided to choose a business question that is of particular interest to me; I will be analyzing a public dataset on a specific Airbnb rental market, provided by **[Inside Airbnb](insideairbnb.com)**.
 
 **Note**: Attached to this repository you will find the final SQL analysis, tables and links to datasets used in the analysis.
 
 ## Introduction
-I love to travel and I always end up using Airbnb to book my stay everywhere I go. Some of my favorite stays include cities such as New York, Denver, London, Barcelona, and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in providing additional cleaning services for hosts who are already comfortable with offering their place as an accommodation on Airbnb. For this project, I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate occasions and every year I find myself wanting to go back to see the snow over the Rocky Mountains during wintertime. The data I will be using for this analysis is provided by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, and SQL in order to solve the following business tasks.
+I love to travel and I always end up using Airbnb to book my stay everywhere I go. Some of my favorite stays include cities such as New York, Denver, London, Barcelona, and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in providing additional cleaning services for hosts who are already comfortable with offering their place as an accommodation on Airbnb. For this project, I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate occasions and every year I find myself wanting to go back to see the snow over the Rocky Mountains during wintertime. The data I will be using for this analysis is provided by **[Inside Airbnb](insideairbnb.com)** and I  will be using Excel, and SQL in order to solve the following business tasks.
 
 ## Business Tasks
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
@@ -40,7 +42,7 @@ A quick glance at the data shows that there are:
 * Price ranges from $10 - $10,000 a night. The listing with the $10,000 price tag per night is located in Five Points, Denver.
 
 
-I continued the cleaning process by creating a cleaned_listings table from the listings dataset where I removed all *Null* values from the listing_url, host_name, neighbourhood_cleansed, room_type and bedrooms columns. Removing null values from the columns of interest resulted in a table with 5,529 unique lisitngs. I will be using the cleaned listings dataset and the reviews dataset in the exploratory data analysis.
+I continue the cleaning process by creating a cleaned_listings table from the listings dataset where I removed all *Null* values from the listing_url, host_name, neighbourhood_cleansed, room_type and bedrooms columns. Removing null values from the columns of interest resulted in a table with 5,529 unique lisitngs. I will be using the cleaned listings dataset and the reviews dataset in the exploratory data analysis.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -81,7 +83,7 @@ For the third business task, I need to identify common themes from the text sect
 
 The reviews dataset contained another category where the hosts listed all of the rental amenities in text form so I decided to take a look at the most common amenities mentioned that can be found among Denver Airbnb rentals (See table 5). By visualizing the most frequently listed amenities allows I can identify what is important to customers in this market. If there are any amenities that require maintenance or replacements, it could present an opportunity for a cleaning business to offer upkeep and replacements for such. By looking at the visualization (see table 5), at first glance, I can see some of the most frequent amenities listed  are: alarm, water, coffee, shampoo, hangers, etc.
 
-I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing ones like those in the visualization. This tier could consist of a team to organize all house items and replenish supplies and amenities according to the quality standards of a luxury stay.
+I see these results as an opportunity to create a high-tiered service for customers who would like to replace supplies, add new amenities and replace existing ones like those in the visualization. This tier could consist of a small team of cleaners that will clean and organize all house items, and replenish supplies and amenities in a way that meets the quality standards of a luxury stay.
 
 **Table 4**
 
@@ -95,9 +97,9 @@ I see these results as an opportunity to create a high-tiered service for custom
 
 For the fourth and final business task, I am tasked to determine if it's possible to identify a list of potential customers for an Airbnb cleaning Business. For this analysis, I decided run a query and create a new table joining both the cleaned listings dataset and the reviews dataset by the listing id. By combining the two tables using a query I should be able to create a table and pull in a customer list by host_id, host_url, host_name and neighbourhood where I can filter for comments with the word "dirty", and sort them by descending order to get the top hosts with the most reviews containing that word. I want to see the host_id, host_url and host_name instead of the actual reviews because I can later use the hosts information to contact potential customers. 
 
-Our initial findings show that there are 727 reviews containing the word "dirty" amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can download the full list of potential customers (table 6) **[here](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/Airbnb_Data_Analysis_Project_EXCEL.xlsx)**, or see the visual in Tableau **[here](https://public.tableau.com/views/ListofPotentialAirbnbClients-DenverCO/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)**
+Our initial findings show that there are 727 reviews containing the word "dirty" amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". You can download the full list of potential customers **[here](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/Airbnb_Data_Analysis_Project_EXCEL.xlsx)** (See table 6), or see the the **[Tableau Visual](https://public.tableau.com/views/ListofPotentialAirbnbClients-DenverCO/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)**.
 
-I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our [**Prices**](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/README.md#prices) section. By looking at the visualization (table 7) we can see two of our desirable neighborhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  
+I also conducted additional analysis on the "dirty" comments to show the count of comments by neighbourhood. Conducting this analysis would allow us to see if there are any potential customers in the geographical regions of interest discussed earlier in our [**Prices**](https://github.com/jimenezsotoj1/Airbnb_Data_Analysis_Project/blob/main/README.md#prices) section. By looking at the visualization (table 7) we can see two of our desirable neighborhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.  As an investor, this information can help me create more effective advertising and reduces my risk of making wrong marketing decisions.
 
 **Table 7**
 
@@ -117,8 +119,10 @@ The highest average price per night for the top 10 neighborhoods ranges from $21
 There are certain words such as words such as “great, clean, comfortable, cozy, perfect” that are associated with the location and cleanliness. Most of the texts shown contain overwhelmingly positive adjectives related to their stay.
 
 **4.Can we identify a list of potential customers for an Airbnb cleaning Business?**
-Yes, I was able to create a list sorted by host_id, host_url and host_name. There was a total of 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty".
+Yes, I was able to create a list sorted by host_id, host_url and host_name. There was a total of 727 reviews containing the word dirty amongst 390 unique hosts. Our top 10 hosts with most reviews account for 22% of total comments with 158 comments containing the word "dirty". Also, two of our desirable neighborhoods (Five points and Highland) have 127 of the 727 comments linked to hosts.
+
+In conclusion, the data supports that a business opportunity exists for an Airbnb cleaning servicing company in Denver, CO. If I were to start this cleaning company today I would focus on the customers list and look for hosts that are located in Five Points and Highland and offer them a discounted pricing on our high-tiered service package. However, I think additional analysis for overhead costs and market competition would need to be conducted before making a final decision on my potential investment.
 
 ## Future Exploration
-As an investor, I would want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own area of interest instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting soon.
+I would want to expand this analysis to multiple cities and compare patterns and trends amongst them before making a final decision. Choosing to do this project on my own area of interest instead of completing a case study for the Google Capstone project has helped me sharpen Data analysis skills and I hope to implement the visualizations and SQL techniques used in this project into my professional setting soon.
 
