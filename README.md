@@ -1,7 +1,11 @@
-# Airbnb Data Analysis (Google Capstone Project)
+# My Google Data Analytics Capstone Project - Airbnb Data Analysis
+
+This is the final project for the Google Data Analytics Professional Certificate course. For this case study, I decided to choose a business question that is of particular interest to me. I will be analyzing a public dataset on the Denver, CO Airbnb rental market, provided by **[Inside Airbnb's](insideairbnb.com)**.
+
+**Note**: Attached to this repository you will find the final SQL analysis, tables and links to datasets used in the analysis.
 
 ## Introduction
-I love to travel and I always end up using Airbnb to book my stay everywhere I go. Some of my favorite stays include cities such as New York, Denver, London, Barcelona, and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in providing additional cleaning services for hosts who are already comfortable with offering their place as an accommodation on Airbnb. For this project, I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate occasions and every year I find myself wanting to go back to see the snow over the Rocky Mountains during wintertime. The data I will be using for this analysis is collected by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, and SQL in order to solve the following business tasks.
+I love to travel and I always end up using Airbnb to book my stay everywhere I go. Some of my favorite stays include cities such as New York, Denver, London, Barcelona, and Madrid. Over time, I've noticed an increase in cleaning fees for Airbnb bookings without a noticeable increase in the standard of cleanliness. This has me thinking that a good business opportunity exists in providing additional cleaning services for hosts who are already comfortable with offering their place as an accommodation on Airbnb. For this project, I am going to analyze Airbnb data for the most populous city in Colorado, Denver. I've visited Denver with family and friends in separate occasions and every year I find myself wanting to go back to see the snow over the Rocky Mountains during wintertime. The data I will be using for this analysis is provided by **[Inside Airbnb's](insideairbnb.com)** and I  will be using Excel, and SQL in order to solve the following business tasks.
 
 ## Business Tasks
 In this scenario, I am the stakeholder interested in investing in an Airbnb servicing company. 
