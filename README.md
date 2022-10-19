@@ -65,7 +65,7 @@ Looking at the data, it is interesting how quickly we can understand the markets
 
 ### 2.) Prices
 
-The second business task is to identify how pricing varies by neighborhood. Conducting a pricing analysis can help me, the investor, develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by looking at the top 10 neighborhoods with the largest average price per night (See table 3).
+The second business task is to identify how pricing varies by neighborhood. Conducting a pricing analysis can help me develop different business cases and implement effective pricing strategies for my servicing company. In this analysis, we will start by looking at the top 10 neighborhoods with the largest average price per night (See table 3).
 
 Initial observation shows that the average price per night for the top 10 neighborhoods ranges from $211 to $341 a night. The neighborhoods with the highest average price per night include Belcaro, Cherry Creek, University Park, Cory-Merrill, CBD, Cole, Five points, Country Club, Highland and Civic Center. I decided to only look at the top 10 neighborhoods because hosts don’t necessarily need to charge a cleaning fee. In some cases, the host may feel charging a cleaning fee drives their booking price up too much. In these instances, hosts generally do their own cleaning instead of paying the cost of hiring a cleaning company.
 
