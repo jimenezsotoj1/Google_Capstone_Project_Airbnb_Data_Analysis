@@ -101,10 +101,10 @@ INNER JOIN `lithe-creek-364913.airbnb_data.listings_denver` ON CAST(`lithe-creek
 
 ## Query used to create a potential customer list
 ```sql
-SELECT host_id, host_url, host_name, COUNT(*) AS num_dirty_reviews
+SELECT host_id, host_url, host_name,latitude, longitude, COUNT(*) AS num_dirty_reviews
 FROM `lithe-creek-364913.airbnb_data.joined_listings_and_reviews`
 WHERE comments LIKE "%dirty%"
-GROUP BY host_id, host_url, host_name
+GROUP BY host_id, host_url,host_name,latitude,longitude
 ORDER BY num_dirty_reviews DESC;
 ````
 
